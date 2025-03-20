@@ -1,3 +1,6 @@
+// Nama: Florence Regis Lake
+// NIM: 105223006
+// POST TEST MODUL 4
 public class CarRent {
     private String noPlat;
     private String merk;
@@ -65,13 +68,13 @@ public class CarRent {
         
         private void penyewaan() {
             if (mobil.kesediaanSewa) {
-                System.out.println("\n================= Car's Sewa =================");
+                System.out.println("\n================= CAR's Sewa =================");
                 mobil.infoSewa();
                 totalBiaya = (lamaSewa * mobil.hargaSewaPerHari) - utility.diskon(lamaSewa, mobil.hargaSewaPerHari);
                 statusSewa = true;
                 mobil.kesediaanSewa = false;
             } else {
-                System.out.println("\n================= Car's Sewa =================");
+                System.out.println("\n================= CAR's Sewa =================");
                 mobil.infoSewa();
                 statusSewa = false;
             }

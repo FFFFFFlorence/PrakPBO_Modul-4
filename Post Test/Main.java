@@ -1,7 +1,8 @@
-import java.util.Scanner;
+// Nama: Florence Regis Lake
+// NIM: 105223006
+// POST TEST MODUL 4
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         CarRent car0 = new CarRent("B 2189 ZFB", "Honda Brio", 150000, true); 
         CarRent car1 = new CarRent("B 1753 AGH", "Toyota Avanza", 230000, false);
         CarRent car2 = new CarRent("B 8675 CTR", "Honda Jazz", 250000, true);
