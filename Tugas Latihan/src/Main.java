@@ -1,3 +1,8 @@
+//
+//  Florence Regis Lake
+//  105223006
+//  Tugas Pendahuluan
+//
 public class Main {
     public static void main(String[] args) {
         Mahasiswa mahasiswa1 = new Mahasiswa("ecaa", "001", "Antropologi", 3.75);

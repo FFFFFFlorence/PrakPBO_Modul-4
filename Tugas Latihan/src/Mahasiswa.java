@@ -1,3 +1,8 @@
+//
+//  Florence Regis Lake
+//  105223006
+//  Tugas Pendahuluan
+//
 public class Mahasiswa {
     String nama;
     String nim;
